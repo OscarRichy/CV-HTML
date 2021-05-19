@@ -1,0 +1,217 @@
+
+.header
+{
+    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-top{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    margin-left: 5em;
+    font-size: 1.6em;   
+    width: max-content;
+
+}
+
+.icons{
+    display: block;
+    margin-left: auto;
+    margin-top: 1.5em;
+    width: 10em;
+    justify-content: space-between;
+
+}
+.iconButton{
+    border-width: 0px;
+    background-color: transparent;
+
+}
+.header-bottom{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    flex : 1;
+    width: 10px;
+}
+
+.TextIntro{
+    margin-top: 6em;
+    margin-left: 6em;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.HireMe{
+    margin-top: 2em;
+    border: 0;
+    width: 10em;
+    line-height: 2.5;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    border-radius: 2em;
+    background-color:  #f6e05e;
+    box-shadow: inset;
+}
+
+.HireMe:hover {
+    background-color: #f9eb9a;
+    animation: pulse;
+    animation-duration: 1s;
+
+}
+
+.HireMe:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.profile{
+    margin-right: 10em;
+    margin-left: 10em;
+    margin-top : 6em;
+    display: flex;
+    flex-direction: row;
+}
+.profileInfo{
+    margin-right: auto;
+    margin-left: auto;
+    flex: 1;
+}
+.imageView{
+    margin-right: auto;
+    margin-left: auto;
+    flex:1;
+}
+.profileImg{
+    margin-right: auto;
+    margin-left: auto;
+    width: 25em;
+    border-radius: 4em;
+}
+p{  
+    font-size: larger;
+    width: 25em;
+    justify-self: center;
+}
+
+table {
+    margin-top: 3em;
+	display: table;
+    
+}
+table tr {
+	display: table-cell;
+}
+table tr td {
+    margin-top: 0.7em;
+	display: block;
+    font-size: 1.1em;
+    font-weight: 500;
+    
+}
+table tr .rightColumn{
+    font-weight: 600;
+    margin-left: 2em;
+}
+.title{
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.para{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.2em;
+    width: 20em
+}
+.divProgress{
+    margin-top: 6em;
+    margin-left: 20em;
+    margin-right: 20em;
+    background-color: ghostwhite;
+    border-radius: 2em;
+    flex-direction: row;
+    display: flex;
+}
+.skill{
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    justify-items: center;
+    align-items: center;
+
+}
+label{
+    margin-top: 2em;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-left:    20em;
+    margin-right: 20em;
+}
+.contactFormDiv{
+    padding: 2em 2em;
+    font-weight: bold;
+    margin-top: 6em;
+    background-color: ghostwhite;
+    margin-bottom: 10em;
+    border-radius: 2em;
+    display: flex;
+    flex : 1;
+}
+.contactForm{
+    width: 25em;
+    margin: 0 auto;
+}
+label{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+input{
+    width: 22em;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+}
+textarea {
+    width: 22em;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+.submitButton{
+    margin-left: 5em;
+    margin-top: 1em;
+    width: 11em;
+    background-color: #f6e05e;
+    border-width: 0px;
+}
+.submitButton:hover{
+    background-color: #f9eb9a;
+    animation: pulse;
+    animation-duration: 1s;
+}
+.contactText{
+    margin-left: 3em;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
